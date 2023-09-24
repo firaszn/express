@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+    head
+        link(rel="stylesheet" , href="/styles/main.css")
+        title #{title}
+    body 
+        include ./navbar.pug
+        section
+            main
+                div.contactform
+                    h1(class="cont") Call Us +216 50569230
+                    div
+                        h1 Or You Can Send Use an Email 
+                        label(for="Your Email")
+                        input(type="email" , placeholder="Please Enter Your Email")
+                        label(for="Your Message")
+                        input(type="text" , placeholder="Insert Your Message")
